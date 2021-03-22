@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/controller.cpp
-controller.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/controller.h
-iostream
--
-SDL.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/SDL.h
-snake.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
-
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/controller.h
 snake.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
@@ -40,24 +30,6 @@ renderer.h
 snake.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
 
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/main.cpp
-iostream
--
-controller.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/controller.h
-game.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/game.h
-renderer.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
-
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.cpp
-renderer.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
-iostream
--
-string
--
-
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
 vector
 -
@@ -65,14 +37,6 @@ SDL.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/SDL.h
 snake.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
-
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.cpp
-snake.h
-/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
-cmath
--
-iostream
--
 
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
 vector
