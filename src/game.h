@@ -6,6 +6,7 @@
 #include "controller.h"
 #include "renderer.h"
 #include "snake.h"
+#include "obstacles.h"
 
 class Game {
  public:
@@ -14,9 +15,11 @@ class Game {
            std::size_t target_frame_duration);
   int GetScore() const;
   int GetSize() const;
+  bool OccupiedCell(int x, int y);
 
  private:
   Snake snake;
+  Obstacles obstacles;
   SDL_Point food;
 
   std::random_device dev;
@@ -27,7 +30,8 @@ class Game {
   int score{0};
 
   void PlaceFood();
-  void Update();
+  void PlaceObstacles();
+  void Update();  
 };
 
 #endif

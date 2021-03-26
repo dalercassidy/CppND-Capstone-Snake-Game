@@ -29,6 +29,14 @@ renderer.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
 snake.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
+obstacles.h
+/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/obstacles.h
+
+/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/obstacles.h
+SDL.h
+/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/SDL.h
+vector
+-
 
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
 vector
@@ -37,6 +45,8 @@ SDL.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/SDL.h
 snake.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
+obstacles.h
+/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/obstacles.h
 
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
 vector
