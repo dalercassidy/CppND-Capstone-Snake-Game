@@ -17,7 +17,7 @@ The game was extended with an obstacles class in obstacles.h and obstacles.cpp. 
     * if statements [line 73-79 in game.cpp]
     * for loops [line 102-106 in game.cpp]
 * The project uses Object Oriented Programming techniques.
-  * Obstacles class was added. Class attributes are seen starting at line 14 to line 19 in obstacles.h. The class method bool ObstacleCell(int x, int y) declared in obstacles.h performs the task to check if a given cell is an obstacle.
+  * Obstacles class was added. Class attributes are seen starting at line 10 to line 12 in obstacles.h. The class method bool ObstacleCell(int x, int y) declared in obstacles.h performs the task to check if a given cell is an obstacle.
 * Classes use appropriate access specifiers for class members.
   * The Obstacles class explicitly defines ObstacleCell(int x, int y), items and number_of_obstacles as public in obstacles.h because they are used outside the scope of the Obstacles class itself
 * Class constructors utilize member initialization lists.
