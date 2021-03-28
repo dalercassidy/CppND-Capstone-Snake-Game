@@ -12,11 +12,12 @@ class Obstacles {
 
   bool ObstacleCell(int x, int y);
   std::vector<SDL_Point> items;  
+  int number_of_obstacles{5};
 
   private:   
     int grid_width;
     int grid_height;
-    int number_of_obstacles{2};
+    
     
 };
 #endif

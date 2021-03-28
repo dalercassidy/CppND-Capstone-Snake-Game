@@ -61,7 +61,7 @@ void Game::PlaceObstacles() {
   int x, y;
   int num_obstacles = 0;
   
-  while (num_obstacles < 5)
+  while (num_obstacles < obstacles.number_of_obstacles)
   {
       while (true)  
       {
