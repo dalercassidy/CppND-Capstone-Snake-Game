@@ -12,9 +12,18 @@ The game was extended with an obstacles class in obstacles.h and obstacles.cpp. 
     * bool Game::OccupiedCell(int x, int y)  [line 55-58 in game.cpp] which determines if either the snake or an obstacle occupies a cell
     * bool Game::SnakeHitObstacle() [line 100-108 in game.cpp] determines if the snake has hit an obstacle
     * void Game::PlaceObstacles() [line 60-82 in game.cpp]
-  * Control structures examples
-    * 
-* this is the second one
+  * Control structure examples
+    * while loops [starting at line 64 and line 66 in game.cpp]
+    * if statements [line 73-79 in game.cpp]
+    * for loops [line 102-106 in game.cpp]
+* The project uses Object Oriented Programming techniques.
+  * Obstacles class was added. Class attributes are seen starting at line 14 to line 19 in obstacles.h. The class method bool ObstacleCell(int x, int y) declared in obstacles.h performs the task to check if a given cell is an obstacle.
+* Classes use appropriate access specifiers for class members.
+  * The Obstacles class explicitly defines ObstacleCell(int x, int y), items and number_of_obstacles as public in obstacles.h because they are used outside the scope of the Obstacles class itself
+* Class constructors utilize member initialization lists.
+  * Obstacles(int num_of_obstacles) : number_of_obstacles(num_of_obstacles) {} [line 9 in obstacles.h] shows how the public variable number_of_obstacles is initialized via a constructor member initialization list
+* The project makes use of references in function declarations.
+  * The method Render in the class Renderer in render.h was declared with a reference to the new obstacles object. [line 15 in render.h]
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
