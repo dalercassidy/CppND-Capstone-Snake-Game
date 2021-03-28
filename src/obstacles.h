@@ -6,18 +6,9 @@
 
 class Obstacles {
  public:
-  Obstacles(int grid_width, int grid_height)
-      : grid_width(grid_width),
-        grid_height(grid_height) {}
-
+  Obstacles(int num_of_obstacles) : number_of_obstacles(num_of_obstacles) {}
   bool ObstacleCell(int x, int y);
   std::vector<SDL_Point> items;  
-  int number_of_obstacles{5};
-
-  private:   
-    int grid_width;
-    int grid_height;
-    
-    
+  int number_of_obstacles;      
 };
 #endif
