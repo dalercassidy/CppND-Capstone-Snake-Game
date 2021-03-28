@@ -1,4 +1,4 @@
-# CPPND: Capstone Snake Game With Obstacles
+# CPPND: Capstone Snake Game with Obstacles
 
 The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl). The game was extended with 5 obstacles. The snake dies if it hits either itself or one of the 5 obstacles. The obstacles are purple blocks. The food is a yellow block.
 
@@ -6,7 +6,7 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
 
 The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method bool ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks.
 
-## 5 Rubric points addressed
+## 5 Rubric Points Addressed
 * The project demonstrates an understanding of C++ functions and control structures.
   * New function examples
     * bool Game::OccupiedCell(int x, int y)  [line 55-58 in game.cpp] which determines if either the snake or an obstacle occupies a cell
