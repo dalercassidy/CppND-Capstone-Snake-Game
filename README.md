@@ -4,7 +4,7 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
 
 <img src="/snake.gif">
 
-The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method bool ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks.
+The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method bool ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks. Changes were made to the renderer to render the new obstacle points. And changes were made to the game object to contain the new obstacles instance as well as to determine valid places to place obstacles and food as well as to determine if the snake hit an obstacle during game play.
 
 ## 5 Rubric Points Addressed
 * The project demonstrates an understanding of C++ functions and control structures.
