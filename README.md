@@ -6,7 +6,7 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
 
 The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method bool ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks.
 
-## Rubric points addressed
+## 5 Rubric points addressed
 * The project demonstrates an understanding of C++ functions and control structures.
   * New function examples
     * bool Game::OccupiedCell(int x, int y)  [line 55-58 in game.cpp] which determines if either the snake or an obstacle occupies a cell
