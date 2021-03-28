@@ -6,6 +6,12 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
 
 The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method bool ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks.
 
+# Rubric points addressed
+* this is the first one
+  * 1
+  * 2
+* this is the second one
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
