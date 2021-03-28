@@ -4,7 +4,7 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
 
 <img src="/snake.gif">
 
-The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method ObstacleCell to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points which is a vector of the obstacle blocks.
+The game was extended with an obstacles class in obstacles.h and obstacles.cpp. The obstacles class has a public method ObstacleCell(int x, int y) to determine if a certain coordinate is already an obstacle. It also contains a vector of SDL_Points called items which is a vector of the obstacle blocks.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
