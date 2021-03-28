@@ -2,6 +2,8 @@
 
 The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl). The game was extended with 5 pieces of poison. The snake dies if it eats a piece of poison. Poison are purple blocks. The food is a yellow block.
 
+<img src="/snake.gif">
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
