@@ -2,6 +2,7 @@
 #define OBSTACLES_H
 #include "SDL.h"
 #include <vector>
+#include "snake.h"
 
 class Obstacles {
  public:
@@ -10,7 +11,7 @@ class Obstacles {
         grid_height(grid_height) {}
 
   bool ObstacleCell(int x, int y);
-  std::vector<SDL_Point> items;
+  std::vector<SDL_Point> items;  
 
   private:   
     int grid_width;

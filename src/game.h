@@ -16,6 +16,7 @@ class Game {
   int GetScore() const;
   int GetSize() const;
   bool OccupiedCell(int x, int y);
+  bool SnakeHitObstacle();
 
  private:
   Snake snake;

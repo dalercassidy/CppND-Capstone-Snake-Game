@@ -156,6 +156,7 @@ CMakeFiles/SnakeGame.dir/src/main.cpp.o: /usr/include/SDL2/close_code.h
 
 CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/obstacles.cpp
 CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/obstacles.h
+CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: ../src/snake.h
 CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: /usr/include/SDL2/SDL_assert.h
 CMakeFiles/SnakeGame.dir/src/obstacles.cpp.o: /usr/include/SDL2/SDL_atomic.h

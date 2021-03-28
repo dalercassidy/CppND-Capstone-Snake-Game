@@ -37,6 +37,8 @@ SDL.h
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/SDL.h
 vector
 -
+snake.h
+/home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/snake.h
 
 /home/dcassidy/workspace/CppND-Capstone-Snake-Game/src/renderer.h
 vector

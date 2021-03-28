@@ -6,8 +6,8 @@ Game::Game(std::size_t grid_width, std::size_t grid_height)
     : snake(grid_width, grid_height),
       obstacles(grid_width, grid_height),
       engine(dev()),
-      random_w(1, static_cast<int>(grid_width)-1),
-      random_h(0, static_cast<int>(grid_height)) {
+      random_w(0, static_cast<int>(grid_width)-1),
+      random_h(0, static_cast<int>(grid_height)-1) {
   PlaceObstacles();
   PlaceFood();
 }
@@ -54,14 +54,14 @@ void Game::Run(Controller const &controller, Renderer &renderer,
 
 bool Game::OccupiedCell(int x, int y)
 {
-  return snake.SnakeCell(x, y) && obstacles.ObstacleCell(x, y);
+  return snake.SnakeCell(x, y) || obstacles.ObstacleCell(x, y);
 }
 
 void Game::PlaceObstacles() { 
   int x, y;
   int num_obstacles = 0;
   
-  while (num_obstacles < 2)
+  while (num_obstacles < 5)
   {
       while (true)  
       {
@@ -74,10 +74,11 @@ void Game::PlaceObstacles() {
           obstacle.x = x;
           obstacle.y = y;
           obstacles.items.push_back(obstacle);
+          num_obstacles++;
           break;
         }
       }  
-    num_obstacles++;
+    
   }  
 }
 
@@ -89,6 +90,7 @@ void Game::PlaceFood() {
     // Check that the location is not occupied by a snake item before placing
     // food.
     if (!OccupiedCell(x, y)) {
+    
       food.x = x;
       food.y = y;
       return;
@@ -96,7 +98,24 @@ void Game::PlaceFood() {
   }
 }
 
+bool Game::SnakeHitObstacle()
+{
+  for (auto const &item : obstacles.items)
+  {
+    if (snake.SnakeCell(item.x, item.y))
+      return true;
+  }
+  return false;
+
+}
+
 void Game::Update() {
+  // check to see if the snake hit an obstacle  
+  if (SnakeHitObstacle())
+  {
+    snake.alive = false;
+  }
+
   if (!snake.alive) return;
 
   snake.Update();
