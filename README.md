@@ -8,9 +8,12 @@ The game was extended with an obstacles class in obstacles.h and obstacles.cpp. 
 
 ## Rubric points addressed
 * The project demonstrates an understanding of C++ functions and control structures.
-  * New functions
-    * bool Game::OccupiedCell(int x, int y)  [line 55-58 in game.cpp]
-  * 2
+  * New function examples
+    * bool Game::OccupiedCell(int x, int y)  [line 55-58 in game.cpp] which determines if either the snake or an obstacle occupies a cell
+    * bool Game::SnakeHitObstacle() [line 100-108 in game.cpp] determines if the snake has hit an obstacle
+    * void Game::PlaceObstacles() [line 60-82 in game.cpp]
+  * Control structures examples
+    * 
 * this is the second one
 
 ## Dependencies for Running Locally
