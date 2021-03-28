@@ -24,7 +24,7 @@ The game was extended with an obstacles class in obstacles.h and obstacles.cpp. 
   * Obstacles(int num_of_obstacles) : number_of_obstacles(num_of_obstacles) {} [line 9 in obstacles.h] shows how the public variable number_of_obstacles is initialized via a constructor member initialization list
 * The project makes use of references in function declarations.
   * The method Render in the class Renderer in render.h was declared with a reference to the new obstacles object. [line 15 in render.h]
-  * Also looping through the items in the Obstacles class uses auto const &item [line 4 in obstacles.cpp] and another variable point is a reference variable the individual items in the obstacles instance [line 52 in renderer.cpp]
+  * Also looping through the items in the Obstacles class uses auto const &item [line 4 in obstacles.cpp] and another variable point is a reference variable to the individual items in the obstacles instance [line 52 in renderer.cpp]
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
